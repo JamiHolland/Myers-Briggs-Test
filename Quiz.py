@@ -1,11 +1,11 @@
 from NSQuestions import NSQuestions
-print NSQuestions
+#print NSQuestions
 from FTQuestions import FTQuestions
-print FTQuestions
+#print FTQuestions
 from IEQuestions import IEQuestions
-print IEQuestions
+#print IEQuestions
 from JPQuestions import JPQuestions
-print JPQuestions
+#print JPQuestions
 from MyersBriggsTypes import TYPES
 # print	TYPES
 
@@ -39,7 +39,7 @@ for Question in NSQuestions:
 		result["S"]+=1
 
 #results 
-print "you are an ", "N" if result["N"]>result["S"] else "S"
+
 
 
 
@@ -53,7 +53,7 @@ for Question in FTQuestions:
 		result["T"]+=1
 
 #results 
-print "you are an ", "F" if result["F"]>result["T"] else "T"
+
 
 
 
@@ -67,7 +67,7 @@ for Question in IEQuestions:
 		result["E"]+=1
 
 #results 
-print "you are an ", "I" if result["I"]>result["E"] else "E"
+
 
 
 
@@ -82,6 +82,16 @@ for Question in JPQuestions:
 
 
 #results 
-print "you are an ", "J" if result["P"]>result["J"] else "P"
+# import pdb
+# pdb.set_trace()
+TestResults = ""
+TestResults += "I" if result["I"]>result["E"] else "E"
+TestResults += "N" if result["N"]>result["S"] else "S"
+TestResults += "F" if result["F"]>result["T"] else "T"
+TestResults += "J" if result["P"]>result["J"] else "P"
+
+print "you are an ", TestResults
+
+print "A", TestResults, "has the following qualities:", TYPES[1][TestResults]
 
 # Ahmad is working here!
