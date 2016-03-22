@@ -84,6 +84,4 @@ for Question in JPQuestions:
 #results 
 print "you are an ", "J" if result["P"]>result["J"] else "P"
 
-
-
-
+# Ahmad is working here!
