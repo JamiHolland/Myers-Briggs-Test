@@ -6,8 +6,8 @@ from IEQuestions import IEQuestions
 print IEQuestions
 from JPQuestions import JPQuestions
 print JPQuestions
-from MyersBriggsTypes import MyersBriggsTypes
-print	MyersBriggsTypes
+from MyersBriggsTypes import TYPES
+# print	TYPES
 
 from shuffle import shuffle
 shuffle (NSQuestions)

@@ -2,11 +2,11 @@ TYPES = [
 {
 	"TYPE-E":"Extroverts focus on the outer world of people and things.",
 	"TYPE-I":"Introverts tend to focus on the inner world of ideas and impressions.",
-	"TYPE-F":"A person who makes decisions based on values and subjective appraisals."
-	"TYPE-T":"A person who makes decisions based on logic and objective analysis."
-	"TYPE-N":"A person who focuses on the future with a view toward patterns and possibilities."
-	"TYPE-S":"A person who focuses on the past or present and on concrete information gained from the senses."
-	"TYPE-J":"A person who prefers a planned and organized approach to life and prefers to have decisions settled."
+	"TYPE-F":"A person who makes decisions based on values and subjective appraisals.",
+	"TYPE-T":"A person who makes decisions based on logic and objective analysis.",
+	"TYPE-N":"A person who focuses on the future with a view toward patterns and possibilities.",
+	"TYPE-S":"A person who focuses on the past or present and on concrete information gained from the senses.",
+	"TYPE-J":"A person who prefers a planned and organized approach to life and prefers to have decisions settled.",
 	"TYPE-P":"A person with a flexible and spontaneous approach to life and prefers to keep all options open."
 
 
