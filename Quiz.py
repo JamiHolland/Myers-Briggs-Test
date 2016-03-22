@@ -28,58 +28,20 @@ result = {
 	"J":0, 
 	"P":0
 }
+def Quizzer (Questions, Type1, Type2, result):
+	for Question in Questions:
+		print 1, Question[Type1]
+		print 2, Question[Type2]
+		userinput = raw_input("Please input 1 or 2 for your choice.")
+		if userinput == "1":
+			result[Type1]+=1
+		elif userinput == "2":
+			result[Type2]+=1
 
-for Question in NSQuestions:
-	print 1, Question["N"]
-	print 2, Question["S"]
-	userinput = raw_input("Please input 1 or 2 for your choice.")
-	if userinput == "1":
-		result["N"]+=1
-	elif userinput == "2":
-		result["S"]+=1
-
-#results 
-
-
-
-
-for Question in FTQuestions:
-	print 1, Question["F"]
-	print 2, Question["T"]
-	userinput = raw_input("Please input 1 or 2 for your choice.")
-	if userinput == "1":
-		result["F"]+=1
-	elif userinput == "2":
-		result["T"]+=1
-
-#results 
-
-
-
-
-for Question in IEQuestions:
-	print 1, Question["I"]
-	print 2, Question["E"]
-	userinput = raw_input("Please input 1 or 2 for your choice.")
-	if userinput == "1":
-		result["I"]+=1
-	elif userinput == "2":
-		result["E"]+=1
-
-#results 
-
-
-
-
-for Question in JPQuestions:
-	print 1, Question["J"]
-	print 2, Question["P"]
-	userinput = raw_input("Please input 1 or 2 for your choice.")
-	if userinput == "1":
-		result["J"]+=1
-	elif userinput == "2":
-		result["P"]+=1
-
+Quizzer(NSQuestions,"N","S",result)
+Quizzer(FTQuestions,"F","T",result)
+Quizzer(IEQuestions,"I","E",result)
+Quizzer(JPQuestions,"J","P",result)
 
 #results 
 # import pdb
